@@ -13,7 +13,7 @@ ProductTag.init(
       primarykey: true,
       autoIncrement: true
     },
-   product_id: {
+    product_id: {
     type: DataTypes.INTEGER,
     references: {
       model: 'product',
